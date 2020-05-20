@@ -6,7 +6,7 @@ const fs = require('fs')
 const Book = require('../models/book')
 const uploadPath = path.join('public', Book.coverImageBasePath)
 const Author = require('../models/author')
-const imageMimeTypes = ['images/jpeg', 'images/png', 'images/gif']
+const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif']
 const upload = multer({
     dest: uploadPath,
     fileFilter: (req, file, callback) => {
