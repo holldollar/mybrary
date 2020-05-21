@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DK Snippity Snap';
+    src: url('/fonts/DKSnippitySnap.woff2') format('woff2'),
+        url('/fonts/DKSnippitySnap.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
